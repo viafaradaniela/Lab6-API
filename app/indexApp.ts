@@ -27,6 +27,7 @@ class AppContainer extends HTMLElement{
              <img src="${image}" class="img">
              </div>
              </div>
+  
              </article>
              </body>
             `);
