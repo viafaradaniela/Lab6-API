@@ -18,7 +18,7 @@ class AppContainer extends HTMLElement{
 
         const characters = Simpsons.map(({character,image,quote}) =>  `
         <link rel="stylesheet" href="./app/components/Services/StyleSimpsons.css">
-            
+            <body>
              <article class="text">
              <div class="card-container">
              <h3>${character}</h3>
@@ -28,6 +28,7 @@ class AppContainer extends HTMLElement{
              </div>
              </div>
              </article>
+             </body>
             `);
 
             this.shadowRoot.innerHTML = `
